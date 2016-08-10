@@ -1,0 +1,5 @@
+**********
+1.0.0
+**********
+
+- Initial release. Supports reward-based video ads and interstitial ads.

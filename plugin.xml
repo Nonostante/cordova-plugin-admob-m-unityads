@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-admob-m-unityads"
+        version="1.0.0">
+      
+    <name>UnityAds mediation for AdMob</name>
+    <description>Add UnityAds mediation to AdMob cordova plugin</description>
+    <author>Nonostante</author>
+    <keywords>cordova,admob,unityads</keywords>
+    <repo>https://github.com/nonostante/cordova-plugin-admob-m-unityads.git</repo>
+    <issue>https://github.com/nonostante/cordova-plugin-admob-m-unityads/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0" />
+    </engines>
+
+    <platform name="android">
+        <source-file src="src/android/UnityAdsAdapter.jar" target-dir="libs" />
+     </platform>
+
+     <platform name="ios">
+         <source-file src="src/ios/libAdapterUnity.a" framework="true"/>
+    </platform>
+
+</plugin>

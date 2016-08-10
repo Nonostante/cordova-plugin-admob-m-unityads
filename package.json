@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-admob-m-unityads",
+  "version": "1.0.0",
+  "description": "Add UnityAds mediation to AdMob cordova plugin",
+  "cordova": {
+    "id": "cordova-plugin-admob-m-unityads",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonostante/cordova-plugin-admob-m-unityads.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonostante/cordova-plugin-admob-m-unityads/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "unityads",
+    "admob"
+  ],
+  "author": {
+    "name": "Giuseppe La Torre"
+  },
+  "license": "MIT"
+}
